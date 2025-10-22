@@ -2,7 +2,7 @@ require('dotenv').config()
 
 const express = require('express')
 const mongoose = require('mongoose')
-const transactionsRoutes = require('./routes/transactions')
+const transactionsRoutes = require('../backend/src/routes/transactions')
 //const authRoutes = require('./routes/auth')
 //const usersRoutes = require('./routes/users')
 
